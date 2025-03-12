@@ -1,0 +1,111 @@
+{
+    "conversations": [
+      {
+        "topic": "Starting a Conversation",
+        "examples": [
+          "Hey!",
+          "Hello!",
+          "Hi there!",
+          "How are you?",
+          "How's it going?",
+          "What's up?",
+          "How ya doin'?",
+          "Good to see you!",
+          "Long time no see!",
+          "Yo!",
+          "How have you been?",
+          "What's new?",
+          "How's everything?"
+        ]
+      },
+      {
+        "topic": "Responding",
+        "examples": [
+          "I'm doing great, how about you?",
+          "I'm good, thanks!",
+          "Pretty good!",
+          "Not bad, you?",
+          "Same old, same old.",
+          "I'm fine, thanks for asking.",
+          "All good!",
+          "Things are going well!",
+          "Couldn't be better!",
+          "Yeah, everything's fine.",
+          "I'm hanging in there.",
+          "Doing okay, and you?"
+        ]
+      },
+      {
+        "topic": "Opening a Random Topic",
+        "examples": [
+          "By the way, have you seen the news today?",
+          "Did you watch the game last night?",
+          "Speaking of that, it reminds me of something funny.",
+          "Have you heard about that new café downtown?",
+          "Oh, that reminds me—did you see what happened yesterday?",
+          "I was thinking about something interesting earlier.",
+          "You know what’s been on my mind lately?",
+          "Out of curiosity, what do you think about [topic]?"
+        ]
+      },
+      {
+        "topic": "Closing a Conversation",
+        "examples": [
+          "Anyway, I should get going now.",
+          "It was really nice talking to you.",
+          "Let's catch up again soon!",
+          "I’ll talk to you later.",
+          "I’ve got to run, but take care!",
+          "I’ll see you around.",
+          "Alright, I’ll leave you to it.",
+          "Let’s stay in touch!"
+        ]
+      },
+      {
+        "topic": "Handling an Argument or Conflict",
+        "examples": [
+          "Let's not argue about this.",
+          "Can we take a step back for a second?",
+          "I think we’re both a bit frustrated right now.",
+          "Let’s just agree to disagree.",
+          "I understand your point, but I see it differently.",
+          "We don’t have to see eye to eye on everything.",
+          "Let’s not make a big deal out of this.",
+          "Can we talk about this calmly?",
+          "Maybe we should take a break and revisit this later.",
+          "Let’s focus on solving the problem, not blaming each other."
+        ]
+      },
+      {
+        "topic": "Expressing Opinions or Feelings",
+        "examples": [
+          "Honestly, I think it’s a great idea.",
+          "To be honest, I didn’t like it that much.",
+          "Personally, I feel like it could’ve been better.",
+          "I’m not sure how I feel about that.",
+          "I’m really excited about this!",
+          "It makes me feel a bit uncomfortable.",
+          "In my opinion, it’s overrated.",
+          "That really touched me.",
+          "I totally agree with you.",
+          "I see what you mean, but I feel differently."
+        ]
+      },
+      {
+        "topic": "Switching Between Topics",
+        "examples": [
+          "Anyway, speaking of something else...",
+          "Changing the subject for a moment...",
+          "Oh, before I forget...",
+          "That reminds me...",
+          "Now that you mention it...",
+          "Let’s shift gears a little.",
+          "While we’re at it, have you heard about...",
+          "By the way, what do you think about...",
+          "Back to what we were saying earlier...",
+          "Let’s circle back to something else I wanted to ask."
+        ]
+      }
+    ]
+  }
+  

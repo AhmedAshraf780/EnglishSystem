@@ -1,0 +1,212 @@
+{
+    "commonpatterns": [
+      {
+        "id": 1,
+        "title": "There's not much to say",
+        "description": "Used when you feel there is nothing more to add or discuss.",
+        "examples": [
+          "Honestly, there's not much to say about the situation.",
+          "There's not much to say—everything is clear."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "It's out of my question",
+        "description": "Used to express that something is completely unacceptable or impossible for you.",
+        "examples": [
+          "Going on a trip right now is out of my question.",
+          "It's out of my question to lend him more money."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Correct me if I am wrong",
+        "description": "Used before expressing your opinion when you're not sure if it's completely correct.",
+        "examples": [
+          "Correct me if I’m wrong, but wasn’t she here yesterday?",
+          "Correct me if I’m wrong, but I think we already discussed this."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Either this or that",
+        "description": "Used to express a choice between two options.",
+        "examples": [
+          "You can choose either this or that, but not both.",
+          "It’s either this or that—make a decision."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "I am as before",
+        "description": "Used to express that you haven't changed or your situation remains the same.",
+        "examples": [
+          "Don't worry about me, I am as before.",
+          "Nothing new—I’m as before."
+        ]
+      },
+      {
+        "id": 6,
+        "title": "I have never given it much thought",
+        "description": "Used when you haven’t really considered or thought deeply about something.",
+        "examples": [
+          "Honestly, I’ve never given it much thought.",
+          "I have never given it much thought until now."
+        ]
+      },
+      {
+        "id": 7,
+        "title": "It's not a big deal",
+        "description": "Used to say something is not very important.",
+        "examples": [
+          "Relax, it’s not a big deal.",
+          "It’s not a big deal if we’re a few minutes late."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "There are downsides to this",
+        "description": "Used to acknowledge disadvantages of a situation or decision.",
+        "examples": [
+          "Sure, working from home is nice, but there are downsides to this.",
+          "There are downsides to this plan we need to consider."
+        ]
+      },
+      {
+        "id": 9,
+        "title": "I won't be taken back by anything",
+        "description": "Used to express that nothing will shock or surprise you.",
+        "examples": [
+          "After everything I’ve seen, I won’t be taken back by anything.",
+          "His reaction didn’t take me back at all."
+        ]
+      },
+      {
+        "id": 10,
+        "title": "I will do my own way",
+        "description": "Used to express that you’ll follow your own path or method.",
+        "examples": [
+          "I respect your opinion, but I will do my own way.",
+          "Let me do it my own way."
+        ]
+      },
+      {
+        "id": 11,
+        "title": "It's you who are to",
+        "description": "Used for emphasizing responsibility or blame.",
+        "examples": [
+          "It’s you who are to blame for this.",
+          "It’s you who are to fix the problem."
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Our main aim today is to",
+        "description": "Used when stating the main objective of a discussion or activity.",
+        "examples": [
+          "Our main aim today is to finalize the project.",
+          "Our main aim today is to improve team communication."
+        ]
+      },
+      {
+        "id": 13,
+        "title": "What a fuss you made",
+        "description": "Used to express annoyance or surprise at someone overreacting.",
+        "examples": [
+          "What a fuss you made over a small mistake!",
+          "He made such a fuss for nothing."
+        ]
+      },
+      {
+        "id": 14,
+        "title": "That's all I have to say about that",
+        "description": "Used to conclude your opinion on a subject.",
+        "examples": [
+          "It was unfair, and that’s all I have to say about that.",
+          "I’ve said what I wanted, that’s all I have to say about that."
+        ]
+      },
+      {
+        "id": 15,
+        "title": "It might seem pointless",
+        "description": "Used when something may appear to lack purpose or value.",
+        "examples": [
+          "It might seem pointless now, but it will matter later.",
+          "Sometimes hard work might seem pointless, but it pays off."
+        ]
+      },
+      {
+        "id": 16,
+        "title": "That's the way it is",
+        "description": "Used to express acceptance of a situation.",
+        "examples": [
+          "Some things can’t be changed—that’s the way it is.",
+          "Life isn’t always fair. That’s the way it is."
+        ]
+      },
+      {
+        "id": 17,
+        "title": "I feel like I was being punished",
+        "description": "Used to describe a situation that feels unfair or unpleasant.",
+        "examples": [
+          "During the meeting, I felt like I was being punished.",
+          "Why do I feel like I was being punished for being honest?"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "This is nonsense",
+        "description": "Used to express disbelief or disapproval.",
+        "examples": [
+          "This is nonsense! None of this makes sense.",
+          "Stop arguing—this is nonsense."
+        ]
+      },
+      {
+        "id": 19,
+        "title": "It doesn't make much of a difference",
+        "description": "Used to say that the outcome is similar no matter the choice.",
+        "examples": [
+          "It doesn’t make much of a difference whether we go now or later.",
+          "Choose any color—it doesn’t make much of a difference."
+        ]
+      },
+      {
+        "id": 20,
+        "title": "You don't know what it is like",
+        "description": "Used to express that someone cannot understand your experience.",
+        "examples": [
+          "You don’t know what it is like to be in my position.",
+          "Unless you’ve been there, you don’t know what it is like."
+        ]
+      },
+      {
+        "id": 21,
+        "title": "She is indelible",
+        "description": "Used to describe someone unforgettable or who leaves a lasting impact.",
+        "examples": [
+          "Her influence on the team is indelible.",
+          "She is indelible—no one can forget her kindness."
+        ]
+      },
+      {
+        "id": 22,
+        "title": "What's gotten into you today?",
+        "description": "Used when someone behaves unusually or unexpectedly.",
+        "examples": [
+          "You’re so energetic today—what’s gotten into you?",
+          "What’s gotten into you today? You’re acting strange."
+        ]
+      },
+      {
+        "id": 23,
+        "title": "It doesn't add up something to me",
+        "description": "Used when something doesn't make sense logically.",
+        "examples": [
+          "His explanation doesn’t add up to me.",
+          "This story doesn’t add up something to me—it sounds fishy."
+        ]
+      }
+    ]
+  }
+   

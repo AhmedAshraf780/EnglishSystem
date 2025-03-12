@@ -1,0 +1,230 @@
+{
+    "phrasalVerbs":[
+        
+           {
+              "title": "Figure out",
+              "description": "To understand or solve something",
+              "examples": ["I can't figure out how to solve this problem.", "I need to figure out what to do next."]
+            },
+            {
+              "title": "Do it over",
+              "description": "To do something again",
+              "examples": ["I made a mistake, so I have to do it over.", "The project was not good, so I have to do it over."]
+            },
+            {
+              "title": "Get Through",
+              "description": "To finish something",
+              "examples": ["I need to get through this work before the deadline.", "I got through the book in one day."]
+            },
+            {
+              "title": "Get out of one's way",
+              "description": "To move out of someone's path",
+              "examples": ["I had to get out of his way because he was in a hurry.", "I had to get out of the way of the car."]
+            },
+            {
+              "title" : "Get along with",
+              "description" : "To have a good relationship with someone",
+              "examples" : ["I get along with my boss.", "I get along with my colleagues."]
+            },
+            {
+              "title": "Bring Up",
+              "description": "To mention something",
+              "examples": ["I brought up the issue in the meeting.", "I brought up the topic of the project."]
+            },
+            {
+              "title": "Call off",
+              "description": "To cancel something",
+              "examples": ["The meeting was called off.", "The event was called off due to bad weather."]
+            },
+            {
+              "title": "Come across",
+              "description": "To find something by chance",
+              "examples": ["I came across an old friend in the market.", "I came across a book that I had been looking for."]
+            },
+            {
+              "title": "Come up with",
+              "description": "To think of an idea",
+              "examples": ["I came up with a new plan for the project.", "I came up with a solution to the problem."]
+            },
+            {
+              "title": "Wrap Up",
+              "description": "To finish something, Conclued something",
+              "examples": ["Let's wrap up the meeting.", "We need to wrap up the project."]
+            },
+            {
+              "title": "Put off",
+              "description": "To delay something",
+              "examples": ["The meeting was put off until next week.", "The event was put off due to bad weather."]
+            },
+            {
+              "title": "Run out of",
+              "description": "To have no more of something",
+              "examples": ["I ran out of money.", "We ran out of time."]
+            },
+            {
+              "title": "Take off",
+              "description": "To remove something",
+              "examples": ["I took off my shoes.", "He took off his jacket."]
+            },
+            {
+              "title": "Turn down",
+              "description": "To refuse something",
+              "examples": ["He turned down the job offer.", "She turned down the invitation."]
+            },
+            {
+              "title": "Turn up",
+              "description": "To arrive",
+              "examples": ["He turned up late for the meeting.", "She turned up at the party."]
+            },
+            {
+              "title": "Look forward to",
+              "description": "To be excited about something that will happen",
+              "examples": ["I am looking forward to the weekend.", "She is looking forward to the party."]
+            },
+            {
+              "title": "Make up",
+              "description": "To invent a story",
+              "examples": ["He made up an excuse for being late.", "She made up a story about the missing book."]
+            },
+            {
+              "title": "Put up with",
+              "description": "To tolerate something",
+              "examples": ["I can't put up with his behavior anymore.", "She put up with the noise from the construction."]
+            },
+            {
+              "title": "Set up",
+              "description": "To establish something",
+              "examples": ["He set up a new business.", "She set up a charity."]
+            },
+            {
+              "title": "Take after",
+              "description": "To resemble someone",
+              "examples": ["She takes after her mother.", "He takes after his father."]
+            },
+            {
+              "title": "Get Into",
+              "description": "To become interested in something",
+              "examples": ["I got into photography.", "She got into painting."]
+            },
+            {
+              "title": "Get over",
+              "description": "To recover from an illness or a bad experience",
+              "examples": ["I got over the flu.", "She got over the breakup."]
+            },
+            {
+              "title": "Go on",
+              "description": "To continue",
+              "examples": ["The meeting went on for hours.", "The party went on until late."]
+            },
+            {
+              "title": "Hold on",
+              "description": "To wait",
+              "examples": ["Hold on a minute, I'll be right back.", "Hold on, I need to make a call."]
+            },
+            {
+              "title": "Stick to",
+              "description": "To follow a plan or a decision",
+              "examples": ["I need to stick to my diet.", "She stuck to her decision."]
+            },
+            {
+              "title": "Stick Around",
+              "description": "To stay in a place",
+              "examples": ["I'll stick around until you finish.", "She stuck around to help."]
+            },
+            {
+              "title": "Leave Off",
+              "description": "To stop doing something",
+              "examples": ["Leave off talking and listen to me.", "She left off working and went home."]
+            },
+            {
+              "title": "Zone Out",
+              "description": "To lose concentration or become unaware of what's happening around you.",
+              "examples": [
+                "I totally zoned out during the meeting.",
+                "He tends to zone out when he's tired."
+              ]
+            },
+            {
+              "title": "Pack In",
+              "description": "To stop doing something or to quit a habit, job, or activity.",
+              "examples": [
+                "She packed in her job to travel the world.",
+                "I think it's time to pack in smoking."
+              ]
+            },
+            {
+              "title": "Run Into",
+              "description": "To meet someone unexpectedly or to encounter a problem.",
+              "examples": [
+                "I ran into an old friend at the mall.",
+                "We ran into some technical issues with the software."
+              ]
+            },
+            {
+              "title": "Carry Out",
+              "description": "To perform or complete a task, plan, or order.",
+              "examples": [
+                "The team carried out the experiment successfully.",
+                "They carried out a survey across several cities."
+              ]
+            },
+            {
+              "title": "Straight Out",
+              "description": "To say something directly and honestly without hesitation.",
+              "examples": [
+                "He told me straight out that he wasn’t interested.",
+                "Just tell her straight out how you feel."
+              ]
+            },
+            {
+              "title": "Pipe Down",
+              "description": "To stop talking or make less noise.",
+              "examples": [
+                "Hey, pipe down! I'm trying to study.",
+                "The teacher asked the students to pipe down."
+              ]
+            },
+            {
+              "title": "Throw Up",
+              "description": "To vomit.",
+              "examples": [
+                "He felt sick and threw up after the ride.",
+                "The baby threw up all over the floor."
+              ]
+            },
+            {
+              "title": "Hold Back",
+              "description": "To stop yourself from doing something or expressing a feeling.",
+              "examples": [
+                "She held back her tears during the speech.",
+                "Don’t hold back—tell him how you really feel."
+              ]
+            },
+            {
+              "title": "Cheer Up",
+              "description": "To become happier or make someone feel happier.",
+              "examples": [
+                "Cheer up! Things will get better soon.",
+                "I brought you some cake to cheer you up."
+              ]
+            },
+            {
+              "title": "Chill Out",
+              "description": "To relax and not get angry or stressed.",
+              "examples": [
+                "You need to chill out and take a break.",
+                "We’re just chilling out at home this weekend."
+              ]
+            },
+            {
+              "title": "Brighten Up",
+              "description": "To become or make something more cheerful or lively.",
+              "examples": [
+                "The flowers really brighten up the room.",
+                "Her smile brightened up my day."
+              ]
+            } 
+          
+          
+    ]
+}

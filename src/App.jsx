@@ -20,6 +20,7 @@ function App() {
             <Route path="/phrasal-verbs" element={<PhrasalVerbs />} />
             <Route path="/common-patterns" element={<CommonPatterns />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Route>
             <Route path="*" element={<h1>Not Found</h1>} />
           </Routes>
