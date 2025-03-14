@@ -1,6 +1,6 @@
 // src/App.jsx
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Conversations from './pages/conversations';
 import Idioms from './pages/idioms';
@@ -10,11 +10,16 @@ import Home from './pages/home';
 import Layout from './components/layout';
 
 function App() {
+
+  useEffect(() => {
+    localStorage.setItem("Ahmed", "Ashraf");
+    localStorage.setItem("ahme") }, []);
+
   return (
     <>
-       <Router>
-         <Routes>
-          <Route element={<Layout/>}>
+      <Router>
+        <Routes>
+          <Route element={<Layout />}>
             <Route path="/conversations" element={<Conversations />} />
             <Route path="/idioms" element={<Idioms />} />
             <Route path="/phrasal-verbs" element={<PhrasalVerbs />} />
@@ -22,8 +27,8 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/" element={<Home />} />
           </Route>
-            <Route path="*" element={<h1>Not Found</h1>} />
-          </Routes>
+          <Route path="*" element={<h1>Not Found</h1>} />
+        </Routes>
       </Router>
     </>
   );

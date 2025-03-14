@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 
 const Header = () => {
     return (
         <>
-            <header className="bg-gray-900 p-4">
-                <div className="max-w-7xl mx-auto">
+            <header className="bg-gray-900 p-4 fixed z-50 w-full top-0">
+                <div className="max-w-7xl mx-auto ">
                     <nav className="flex flex-wrap flex-col md:flex-row gap-4 text-white justify-evenly items-center">
                         <NavLink to="/home" className="hover:text-blue-400">LOKI</NavLink>
                         <NavLink to="/conversations" className="hover:text-blue-400">Conversations</NavLink>

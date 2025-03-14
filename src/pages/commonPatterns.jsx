@@ -2,16 +2,34 @@ import React, { useState, useEffect } from 'react';
 const CommonPatterns = () => {
   const [patterns, setPatterns] = useState([]);
 
+
   useEffect(() => {
-    fetch("http://localhost:3000/commonpatterns")
-      .then((res) => res.json())
-      .then((data) => setPatterns(data))
-      .catch((err) => console.log(err));
-  }, []);
+    const cachedData = localStorage.getItem("commonpatterns");
+
+    try{
+      if(cachedData && cachedData !== "undefined"){
+        setPatterns ( JSON.parse(cachedData));
+      }
+      else{
+        throw new Error("Not Valid Array to parse");
+      }
+    }
+    catch(err){
+      console.log(err);
+    
+    fetch("http://localhost:3005/commonpatterns")
+    .then((res) => res.json())
+    .then((data) => {
+      localStorage.setItem("commonpatterns",JSON.stringify(data));
+      setPatterns (data);
+    })
+    .catch((err) => console.log(err));
+    }
+  },[])
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mb-8">✨ Common English Patterns</h1>
+      <h1 className="text-3xl font-bold text-center p-13">✨ Common English Patterns</h1>
 
       {patterns.length === 0 ? (
         <p className="text-center text-gray-500">Loading patterns...</p>
@@ -37,6 +55,7 @@ const CommonPatterns = () => {
           ))}
         </div>
       )}
+        
     </div>
   );
 };

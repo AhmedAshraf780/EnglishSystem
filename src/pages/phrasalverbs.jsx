@@ -1,18 +1,35 @@
 
-import React,{useState,useEffect, use} from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Phrasal = () => {
     const [phrasal, setPhrasal] = useState([]);
-    useEffect(() => {
-        fetch("http://localhost:3001/phrasalVerbs")
-            .then((res) => res.json())
-            .then((data) => setPhrasal(data))
-            .catch((err) => console.log(err));
-    }, []);
-    return (
 
+    useEffect(() => {
+        const cachedData = localStorage.getItem("phrasalVerbs");
+
+        if (cachedData) {
+            // Always render from localStorage
+            setPhrasal(JSON.parse(cachedData));
+        } else {
+            // Fetch if not in localStorage
+            fetch("http://localhost:3001/phrasalVerbs")
+                .then((res) => res.json())
+                .then((data) => {
+                    localStorage.setItem("phrasalVerbs", JSON.stringify(data));
+
+                    // Set data by re-reading from localStorage (not directly from fetched data)
+                    const updatedLocal = localStorage.getItem("phrasalVerbs");
+                    if (updatedLocal) {
+                        setPhrasal(JSON.parse(updatedLocal));
+                    }
+                })
+                .catch((err) => console.log(err));
+        }
+    }, []);
+
+    return (
         <div className="p-6 max-w-4xl mx-auto">
-            <h1 className="text-3xl font-bold text-center mb-8">✨ Phrasal Verbs</h1>
+            <h1 className="text-3xl font-bold text-center p-13 ">✨ Phrasal Verbs</h1>
 
             {phrasal.length === 0 ? (
                 <p className="text-center text-gray-500">Loading phrasal verbs...</p>
@@ -26,7 +43,6 @@ const Phrasal = () => {
                             <h2 className="text-xl font-semibold mb-2 text-blue-700">{phrasal.title}</h2>
                             <p className="text-gray-700">{phrasal.description}</p>
 
-                            {/* Optional: show examples if you have */}
                             {phrasal.examples && phrasal.examples.length > 0 && (
                                 <ul className="mt-3 list-disc list-inside text-gray-600">
                                     {phrasal.examples.map((ex, idx) => (
@@ -39,7 +55,7 @@ const Phrasal = () => {
                 </div>
             )}
         </div>
-    )
+    );
 };
 
 export default Phrasal;

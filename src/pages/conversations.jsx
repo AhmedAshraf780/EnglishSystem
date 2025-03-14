@@ -2,17 +2,31 @@ import React, { useState, useEffect } from 'react';
 
 const Conversations = () => {
   const [conversations, setConversations] = useState([]);
-
   useEffect(() => {
-    fetch("http://localhost:3003/conversations")
-      .then((res) => res.json())
-      .then((data) => setConversations(data))
-      .catch((err) => console.log(err));
+    const cachedData = localStorage.getItem("conversations");
+  
+    try {
+      if (cachedData && cachedData !== "undefined") {
+        setConversations(JSON.parse(cachedData));
+      } else {
+        throw new Error("No valid local storage data");
+      }
+    } catch (error) {
+      console.log("Invalid localStorage data, fetching fresh data...");
+      fetch("http://localhost:3003/conversations")
+        .then((res) => res.json())
+        .then((data) => {
+          if (data && Array.isArray(data)) {
+            localStorage.setItem("conversations", JSON.stringify(data));
+            setConversations(data);
+          }
+        })
+        .catch((err) => console.log("Fetch error:", err));
+    }
   }, []);
-
-  return (
+   return (
     <div className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold text-center mb-8">✨ Conversations</h1>
+      <h1 className="text-3xl font-bold text-center p-13">✨ Conversations</h1>
 
       {conversations.length === 0 ? (
         <p className="text-center text-gray-500">Loading conversations...</p>
